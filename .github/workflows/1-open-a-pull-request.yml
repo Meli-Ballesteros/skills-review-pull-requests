@@ -10,7 +10,7 @@ on:
   pull_request:
     types:
       - opened
-      - reopened  
+      - reopened
 
 # Reference: https://docs.github.com/en/actions/security-guides/automatic-token-authentication
 permissions:
