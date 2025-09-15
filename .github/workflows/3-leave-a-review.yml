@@ -4,6 +4,7 @@ name: Step 3, Leave a review
 # This workflow updates from step 3 to step 4.
 
 # This will run every time we leave a pull request review.
+#autor : pepe
 # Reference: https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows
 on:
   workflow_dispatch:
@@ -18,7 +19,7 @@ permissions:
   contents: write
 
 jobs:
-  # Get the current step to only run the main job when the learner is on the same step.
+  # Get the dcurrent step to only run the main job when the learner is on the same step.
   get_current_step:
     name: Check current step number
     runs-on: ubuntu-latest
